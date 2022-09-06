@@ -1,0 +1,53 @@
+.pseudo,
+.pseudo-whats {
+    position: relative;
+}
+
+.pseudo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 1px;
+    height: 100%;
+    background-color: #F0BE47;
+}
+
+.pseudo::after,
+.pseudo-whats::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 1px;
+    height: 100%;
+    background-color: #F0BE47;
+}
+
+.pseudo-email {
+    position: relative;
+}
+
+.pseudo-email::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #F0BE47;
+}
+
+.pseudo-email::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #F0BE47;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #77287D;
+}
