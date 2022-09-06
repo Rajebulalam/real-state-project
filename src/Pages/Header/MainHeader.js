@@ -12,7 +12,7 @@ const MainHeader = () => {
 
     return (
         <div className='bg-white border-bottom'>
-            <div class="navbar w-full lg:w-11/12 mx-auto">
+            <div class="navbar w-full lg:w-11/12 px-4 mx-auto">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
