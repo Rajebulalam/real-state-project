@@ -10,7 +10,7 @@ const Service = () => {
     return (
         <div className='w-full lg:w-11/12 px-4 dlg:px-6 mx-auto py-6'>
             <h2 className='text-4xl text-center font-bold text-secondary pb-4'>Our <span className='text-primary'>Services</span> </h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-14'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-14'>
                 <div className='bg-primary shadow-md rounded-xl pb-4'>
                     <img className='rounded-xl h-[260px]' src={villa} alt="house" />
                     <h2 className='text-2xl font-bold text-secondary text-center py-16'>Villa for Rent</h2>
