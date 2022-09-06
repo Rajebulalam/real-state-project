@@ -5,14 +5,14 @@ import logo from '../../Images/logo.png';
 const MainHeader = () => {
 
     const menuItem = <>
-        <li><Link className='text-primary text-xl font-medium' to='/'>Home</Link></li>
-        <li><Link className='text-primary text-xl font-medium' to='/about'>About</Link></li>
-        <li><Link className='text-primary text-xl font-medium' to='/contact'>Contact</Link></li>
+        <li><Link className='text-secondary bg-primary hover:bg-secondary hover:text-primary text-xl font-medium' to='/'>Home</Link></li>
+        <li><Link className='text-secondary mx-3 bg-primary hover:bg-secondary hover:text-primary text-xl font-medium' to='/about'>About</Link></li>
+        <li><Link className='text-secondary bg-primary hover:bg-secondary hover:text-primary text-xl font-medium' to='/contact'>Contact</Link></li>
     </>;
 
     return (
         <div className='bg-white border-bottom'>
-            <div class="navbar w-full lg:w-11/12 px-4 mx-auto">
+            <div class="navbar w-full lg:w-11/12 px-4 lg:px-6 mx-auto">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
