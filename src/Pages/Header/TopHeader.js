@@ -8,7 +8,7 @@ const TopHeader = () => {
     return (
         <div className='bg-primary border-bottom'>
             <div className='w-full md:w-11/12 px-4 md:px-6 mx-auto'>
-                <div className='flex justify-between items-center'>
+                <div className='hidden lg:flex lg:justify-between items-center'>
                     <div className='flex'>
                         <p className='pseudo pr-6 text-xl py-2 text-secondary'>
                             <FontAwesomeIcon className='text-secondary text-xl pr-3' icon={faPhoneAlt}></FontAwesomeIcon>

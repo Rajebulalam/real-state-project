@@ -8,7 +8,7 @@ import triple from '../../Images/triple.jpg';
 
 const Service = () => {
     return (
-        <div className='w-full lg:w-11/12 px-4 dlg:px-6 mx-auto py-6'>
+        <div className='w-full lg:w-11/12 px-4 lg:px-6 mx-auto pt-6 pb-0 md:py-6'>
             <h2 className='text-4xl text-center font-bold text-secondary pb-4'>Our <span className='text-primary'>Services</span> </h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-14'>
                 <div className='bg-primary shadow-md rounded-xl pb-4'>
