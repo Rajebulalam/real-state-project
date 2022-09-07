@@ -34,7 +34,7 @@ const Footer = () => {
             {/* Bottom Footer */}
             <div className='w-full lg:w-11/12 px-4 lg:px-6 mx-auto py-6'>
                 <div className='flex-none md:flex md:justify-between items-center'>
-                    <p className='text-xl flex justify-center pb-3 md:pb-0 md:flex-none md:justify-start'>&copy; All Right Reserved by Asset Sign Real State</p>
+                    <p className='text-xl flex text-center justify-center pb-3 md:pb-0 md:flex-none md:justify-start'>&copy; All Right Reserved by Asset Sign Real State</p>
                     <p className='flex justify-center pt-3 md:pt-0 md:flex-none md:justify-start'>
                         <FontAwesomeIcon className='px-4 py-3 text-primary text-xl border border-primary rounded-full mr-2 hover:bg-primary hover:text-secondary' icon={faFacebookF}></FontAwesomeIcon>
                         <FontAwesomeIcon className='p-3 text-primary text-xl border border-primary rounded-full mr-2 hover:bg-primary hover:text-secondary' icon={faWhatsapp}></FontAwesomeIcon>

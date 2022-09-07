@@ -15,7 +15,7 @@ const MainHeader = () => {
             <div className="navbar w-full lg:w-11/12 px-4 lg:px-6 mx-auto">
                 <div className="navbar lg:navbar-start">
                     <div className='navbar-start me-auto'>
-                        <Link to='/'> <img src={logo} className='w-[150px] h-[80px]' alt="logo" /> </Link>
+                        <Link to='/'> <img src={logo} className='w-[150px] h-[60px]' alt="logo" /> </Link>
                     </div>
                     <div className="dropdown text-end navbar-end">
                         <label tabIndex="0" className="btn btn-ghost lg:hidden">

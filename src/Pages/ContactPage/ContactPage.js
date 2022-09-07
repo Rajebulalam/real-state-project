@@ -22,12 +22,12 @@ const ContactPage = () => {
     // }
 
     return (
-        <div className='contact-page py-10'>
+        <div className='contact-page py-10 pb-14'>
             <div className='w-full lg:w-11/12 px-4 lg:px-6 mx-auto'>
                 <h2 style={{ fontFamily: 'Merienda' }} className='text-center text-5xl font-bold text-white pt-6'>Contact Us</h2>
                 <p className='text-center text-xl text-slate-400 pt-4 pb-6'>If you have any question about me? Then you should contact with this.</p>
                 <div className='flex-none md:flex md:items-center pt-10'>
-                    <div className='pb-8 md:pb-0 w-full'>
+                    <div data-aos='fade-right' data-aos-duration="1000" className='pb-8 md:pb-0 w-full'>
                         <div className='flex pb-6'>
                             <div className='pr-6'>
                                 <FontAwesomeIcon className='text-lg text-primary bg-white px-[18px] py-4 rounded-full' icon={faLocationDot}></FontAwesomeIcon>
@@ -69,7 +69,7 @@ const ContactPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='bg-white p-6 rounded-md w-full'>
+                    <div data-aos='fade-left' data-aos-duration="1000" className='bg-white p-6 rounded-md w-full'>
                         <h2 style={{ fontFamily: 'Merienda' }} className='text-4xl text-primary pb-6'>Send Message</h2>
                         {/* for click onSubmit={sendEmail} */}
                         <form>

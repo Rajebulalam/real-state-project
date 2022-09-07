@@ -20,7 +20,7 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className='main'>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
