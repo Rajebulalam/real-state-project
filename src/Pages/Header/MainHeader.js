@@ -6,7 +6,7 @@ const MainHeader = () => {
 
     const menuItem = <>
         <li><Link className='mb-4 md:mb-0 text-primary hover:text-white lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/'>Home</Link></li>
-        <li><Link className='mb-4 md:mb-0 px-1 lg:px-3 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium mx-3' to='/about'>About</Link></li>
+        <li><Link className='mb-4 md:mb-0 px-1 lg:px-3 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium mx-3' to='/coming'>About</Link></li>
         <li><Link className='mb-4 md:mb-0 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/contact'>Contact</Link></li>
     </>;
 

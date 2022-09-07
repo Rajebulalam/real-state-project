@@ -19,10 +19,14 @@ const TopHeader = () => {
                             0504188232
                         </p>
                     </div>
-                    <div>
+                    <div className='flex'>
+                        <p className='text-xl py-2 px-4 pseudo-email-left text-secondary pr-2'>
+                            <FontAwesomeIcon className='text-secondary text-xl pr-3' icon={faEnvelope}></FontAwesomeIcon>
+                            info@assetsignrealstate.com
+                        </p>
                         <p className='text-xl py-2 px-4 pseudo-email text-secondary'>
                             <FontAwesomeIcon className='text-secondary text-xl pr-3' icon={faEnvelope}></FontAwesomeIcon>
-                            Habibrahman891@gmail.com
+                            habibrahman891@gmail.com
                         </p>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ const Footer = () => {
                             <p className='pb-2 text-white text-xl'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faPhoneAlt}></FontAwesomeIcon> 0504188232, 0504188232 </p>
                             <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faWhatsapp}></FontAwesomeIcon> 0504188232, 0504188232 </p>
                             <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> habibrahman891@gmail.com </p>
-                            <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> info@assetrealstate.com </p>
+                            <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> info@assetsignrealstate.com </p>
                         </div>
                     </div>
                 </div>
