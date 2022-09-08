@@ -12,11 +12,11 @@ const TopHeader = () => {
                     <div className='flex'>
                         <p className='pseudo pr-6 text-xl py-2 text-secondary'>
                             <FontAwesomeIcon className='text-secondary text-xl pr-3' icon={faPhoneAlt}></FontAwesomeIcon>
-                            0504188232
+                            026260031 (Official)
                         </p>
                         <p className='text-xl pl-1 pr-6 py-2 pseudo-whats text-secondary'>
                             <FontAwesomeIcon className='text-secondary text-xl pr-3' icon={faWhatsapp}></FontAwesomeIcon>
-                            0504188232
+                            0559242638
                         </p>
                     </div>
                     <div className='flex'>

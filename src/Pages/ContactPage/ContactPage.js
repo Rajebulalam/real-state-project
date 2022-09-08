@@ -34,8 +34,8 @@ const ContactPage = () => {
                             </div>
                             <div>
                                 <h3 className='text-red-500 text-2xl pb-2'>Address</h3>
-                                <p className='text-white text-lg'>Abu Dhabi, Ja.....</p>
-                                <p className='text-white text-lg'>Emarite</p>
+                                <p className='text-white text-lg'>Hamdan street we mart same building</p>
+                                <p className='text-white text-lg'>3rd floor, office No 316</p>
                             </div>
                         </div>
                         <div className='flex pb-6'>
@@ -44,7 +44,7 @@ const ContactPage = () => {
                             </div>
                             <div>
                                 <h3 className='text-red-500 text-2xl pb-2'>Phone</h3>
-                                <p className='text-white text-lg'>0504188232</p>
+                                <p className='text-white text-lg'>026260031 (Official)</p>
                                 <p className='text-white text-lg'>0504188232</p>
                             </div>
                         </div>
@@ -54,8 +54,7 @@ const ContactPage = () => {
                             </div>
                             <div>
                                 <h3 className='text-red-500 text-2xl pb-2'>Whatsapp</h3>
-                                <p className='text-white text-lg'>0504188232</p>
-                                <p className='text-white text-lg'>0504188232</p>
+                                <p className='text-white text-lg'>0559242638</p>
                             </div>
                         </div>
                         <div className='flex'>

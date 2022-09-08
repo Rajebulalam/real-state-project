@@ -1,7 +1,8 @@
 import { faFacebookF, faInstagram, faWhatsapp } from '@fortawesome/fontawesome-free-brands';
-import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLocationDot, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { ExternalLink } from 'react-external-link';
 import { Link } from 'react-router-dom';
 import logo from '../../Images/logo.png';
 
@@ -18,14 +19,18 @@ const Footer = () => {
                         <div className='text-center md:text-start'>
                             <h2 className='text-white text-2xl font-bold pb-5'>Important Links</h2>
                             <Link className='text-xl block text-white hover:text-secondary pb-1' to='/'>Home</Link>
-                            <Link className='text-xl block text-white hover:text-secondary pb-1' to='/'>About</Link>
-                            <Link className='text-xl block text-white hover:text-secondary pb-1' to='/'>Contact</Link>
+                            <Link className='text-xl block text-white hover:text-secondary pb-1' to='/coming'>About</Link>
+                            <Link className='text-xl block text-white hover:text-secondary pb-1' to='/contact'>Contact</Link>
+                            <ExternalLink href='https://smartservices.icp.gov.ae/echannels/web/client/default.html#/login' className='text-xl block text-white hover:text-secondary pb-1' to='/'>Smart Services</ExternalLink>
                         </div>
                         <div className='text-center md:text-start'>
                             <h2 className='text-white text-2xl font-bold pb-5'>Connect Us</h2>
-                            <p className='pb-2 text-white text-xl'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faPhoneAlt}></FontAwesomeIcon> 0504188232, 0504188232 </p>
-                            <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faWhatsapp}></FontAwesomeIcon> 0504188232, 0504188232 </p>
-                            <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> habibrahman891@gmail.com </p>
+
+                            <p className='pb-2 text-white text-lg md:text-xl'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faLocationDot}></FontAwesomeIcon> <span>Hamdan street we mart same building,</span>
+                                <span className='pl-2'>3rd floor, office No 316 </span> </p>
+                            <p className='pb-2 text-white text-lg md:text-xl'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faPhoneAlt}></FontAwesomeIcon>026260031 (Official) , 0504188232 </p>
+                            <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faWhatsapp}></FontAwesomeIcon> 0559242638 </p>
+                            <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-lg md:text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> habibrahman891@gmail.com </p>
                             <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> info@assetsignrealstate.com </p>
                         </div>
                     </div>
