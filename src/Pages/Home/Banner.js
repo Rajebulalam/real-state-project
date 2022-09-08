@@ -12,7 +12,6 @@ const Banner = () => {
                     <p>May your abode be a joyous one with you.....</p>
                     <div className='flex'>
                         <button type='submit' className='banner-btn font-semibold outline-0 border-0 mt-16 bg-primary text-secondary rounded-lg px-6 py-4 text-xl '>Get Started</button><img src={vector} alt="vector" />
-
                     </div>
                 </div>
                 <div>
