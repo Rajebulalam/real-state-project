@@ -34,8 +34,7 @@ const ContactPage = () => {
                             </div>
                             <div>
                                 <h3 className='text-red-500 text-2xl pb-2'>Address</h3>
-                                <p className='text-white text-lg'>Hamdan street we mart same building</p>
-                                <p className='text-white text-lg'>3rd floor, office No 316</p>
+                                <p className='text-white text-lg'>Hamdan street Wemart same building, 3rd floor, office No 316</p>
                             </div>
                         </div>
                         <div className='flex pb-6'>
@@ -63,7 +62,7 @@ const ContactPage = () => {
                             </div>
                             <div>
                                 <h3 className='text-red-500 text-2xl pb-2'>Email</h3>
-                                <p className='text-white text-lg'>info@assetsignrealstate.com</p>
+                                <p className='text-white text-lg'>assetsignrealestate01@gmail.com</p>
                                 <p className='text-white text-lg'>habibrahman891@gmail.com</p>
                             </div>
                         </div>

@@ -7,8 +7,8 @@ import './WhatsApp.css';
 const WhatsApp = () => {
     return (
         <div>
-            <p title='Message on Whatsapp' className='bg-primary py-2 px-3 rounded-lg whatsapp-float'>
-                <ExternalLink href='https://wa.me/0559242638'> <FontAwesomeIcon className='text-3xl text-secondary' icon={faWhatsapp}></FontAwesomeIcon> </ExternalLink>
+            <p title='Message on Whatsapp' className='bg-primary border border-secondary py-2 px-3 rounded-lg whatsapp-float'>
+                <ExternalLink href='https://wa.me/+9710559242638'> <FontAwesomeIcon className='text-3xl text-secondary' icon={faWhatsapp}></FontAwesomeIcon> </ExternalLink>
             </p>
         </div>
     );

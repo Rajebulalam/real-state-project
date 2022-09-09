@@ -11,7 +11,7 @@ const Banner = () => {
                     <h2 style={{ fontFamily: 'Merienda' }} className='text-4xl md:text-5xl text-primary font-bold pb-6'>Get You <span className='text-secondary'>Comport</span> </h2>
                     <p>May your abode be a joyous one with you.....</p>
                     <div className='flex'>
-                        <button type='submit' className='banner-btn font-semibold outline-0 border-0 mt-16 bg-primary text-secondary rounded-lg px-6 py-4 text-xl '>Get Started</button><img src={vector} alt="vector" />
+                        <button type='submit' className='banner-btn font-semibold outline-0 border-0 mt-16 bg-primary text-secondary rounded-lg px-4 py-2 md:px-6 md:py-4 text-xl '>Get Started</button><img src={vector} alt="vector" />
                     </div>
                 </div>
                 <div>
