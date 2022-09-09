@@ -31,7 +31,7 @@ const Footer = () => {
                             <p className='pb-2 text-white text-lg md:text-xl'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faPhoneAlt}></FontAwesomeIcon>026260031 (Official) , 0504188232 </p>
                             <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faWhatsapp}></FontAwesomeIcon> 0559242638 </p>
                             <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-lg md:text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> habibrahman891@gmail.com </p>
-                            <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> assetsignrealestate01@gmail.com </p>
+                            <p className='text-white text-xl pb-2'> <FontAwesomeIcon className='text-xl text-secondary pr-3' icon={faEnvelope}></FontAwesomeIcon> infoassetsign@gmail.com </p>
                         </div>
                     </div>
                 </div>

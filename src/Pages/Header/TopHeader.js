@@ -22,7 +22,7 @@ const TopHeader = () => {
                     <div className='flex'>
                         <p className='text-xl py-2 px-4 pseudo-email-left text-secondary pr-2'>
                             <FontAwesomeIcon className='text-secondary text-xl pr-3' icon={faEnvelope}></FontAwesomeIcon>
-                            assetsignrealestate01@gmail.com
+                            infoassetsign@gmail.com
                         </p>
                         <p className='text-xl py-2 px-4 pseudo-email text-secondary'>
                             <FontAwesomeIcon className='text-secondary text-xl pr-3' icon={faEnvelope}></FontAwesomeIcon>
