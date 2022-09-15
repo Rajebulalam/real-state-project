@@ -1,13 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import logo from '../../Images/logo.png';
 
 const MainHeader = () => {
 
+    const navigate = useNavigate();
+
+    const admin = localStorage.getItem('admin');
+    const logOut = async () => {
+        localStorage.removeItem('admin');
+        navigate('/home');
+    }
+
     const menuItem = <>
         <li className='pr-3'><Link className='mb-4 md:mb-0 text-primary hover:text-white lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/'>Home</Link></li>
         <li className='pr-3'><Link className='mb-4 md:mb-0 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/contact'>Contact</Link></li>
-        <li><Link className='mb-4 md:mb-0 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/login'>Login</Link></li>
+        {
+            admin === null ? '' : <li className='pr-3'><Link className='mb-4 md:mb-0 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/addDetails'>Details</Link></li>
+        }
+        {
+            admin === null ? '' : <li className='pr-3'><Link className='mb-4 md:mb-0 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/addDetails'>Add</Link></li>
+        }
+        {
+            admin ? <li><Link onClick={logOut} className='mb-4 md:mb-0 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/home'>Logout</Link></li> : <li><Link className='mb-4 md:mb-0 text-primary hover:text-white  lg:text-secondary lg:bg-primary lg:hover:bg-secondary lg:hover:text-primary text-xl font-medium' to='/login'>Login</Link></li>
+        }
     </>;
 
     return (
