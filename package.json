@@ -1,6 +1,7 @@
 {
   "name": "asset-sign-real-state",
   "version": "0.1.0",
+  "homepage": "https://assetsignrealestate.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
